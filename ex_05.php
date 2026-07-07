@@ -14,13 +14,15 @@ function analisarTexto($texto){
         "Consoantes" => $consoantes 
     ];
 
+
+
 }
 
 $texto_usuario = "Hugo soneca";
 
 $resultado = analisarTexto($texto_usuario);
 
-echo "Texto: " . $texto . "<br>";
+echo "Texto: " . $texto_usuario . "<br>";
 echo "Quantidade de Palavra:" .  $resultado["Palavra"] . "<br>";
 echo "Quantidade de caractere: " .$resultado["Caractere"] . "<br>";
 echo "Quantidade de Vogais: " . $resultado["Vogais"] . "<br>";
