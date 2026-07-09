@@ -14,3 +14,4 @@ function gerarSenha($tamanho) {
 
 $senha = gerarSenha(30);
 echo "Senha gerada: " . $senha;
+?>

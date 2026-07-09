@@ -27,3 +27,5 @@ echo "Quantidade de Palavra:" .  $resultado["Palavra"] . "<br>";
 echo "Quantidade de caractere: " .$resultado["Caractere"] . "<br>";
 echo "Quantidade de Vogais: " . $resultado["Vogais"] . "<br>";
 echo "Quantidade de Consoantes: " . $resultado["Consoantes"] . "<br>";
+
+?>
